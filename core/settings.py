@@ -35,4 +35,5 @@ HOST = '0.0.0.0'
 PORT = 9090
 DEBUG = False
 # Postgres DB Connection URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/nodejsscan'
+#SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/nodejsscan' #Manual
+SQLALCHEMY_DATABASE_URI = 'postgresql:///nodejsscan'  #Default when no password set
